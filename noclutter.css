@@ -1,0 +1,31 @@
+/* Stuff that gets hidden */
+.module.Footer, /* footer sidebar */
+.module.trends, /* trends sidebar */
+.module.wtf-module, /* who-to-follow sidebar */
+.moments.js-moments-tab, /* moments tab */
+.Footer-adsModule, /* "Advertise with Twitter" link */
+.ProfileCardStats-statList, /* Stats below account */
+.promoted-tweet, /* promoted tweet */
+.stream-item.has-recap, /* you might like */
+.stream-item.js-activity-favorite, /* favorites in the Notifications page */
+.WtfLargeCarouselStreamItem /* who-to-follow in stream */
+{
+    display: none !important;
+}
+
+/* Stuff that gets shoved to the right hand side */
+.content-main .tweet > .content > .AdaptiveMedia, /* multi-image container */
+.content-main .tweet > .content > .js-media-container, /* embedded content container */
+.content-main .tweet > .content > .QuoteTweet, /* quoted tweet */
+.content-main .tweet > .content > .poster-image-container /* embedded video */
+{
+    max-width: 300px !important;
+    max-height: 85px !important;
+    width: 300px !important;
+    height: 85px !important;
+    margin-right: -300px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: -8px !important;
+    left: 600px !important;
+}
