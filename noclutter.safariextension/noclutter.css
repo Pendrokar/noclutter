@@ -2,15 +2,25 @@
 .module.Footer, /* footer sidebar */
 .module.trends, /* trends sidebar */
 .module.wtf-module, /* who-to-follow sidebar */
+.WhoToFollow, /* who-to-follow sidebar on others' profile pages */
 .moments.js-moments-tab, /* moments tab */
 .Footer-adsModule, /* "Advertise with Twitter" link */
 .ProfileCardStats-statList, /* Stats below account */
 .promoted-tweet, /* promoted tweet */
 .stream-item.has-recap, /* you might like */
 .stream-item.js-activity-favorite, /* favorites in the Notifications page */
+.stream-item.js-activity-favorited_mention, /* favorited-a-tweet-you-were-mentioned-in in the Notifications page */
+.stream-item.js-activity-retweet, /* retweeted-you  in the Notifications page */
+.stream-item.js-activity-retweeted_retweet, /* retweeted-your-retweet  in the Notifications page */
 .WtfLargeCarouselStreamItem /* who-to-follow in stream */
 {
     display: none !important;
+}
+
+/* Stuff that gets de-emphasized */
+.stream-item .stream-item-footer
+{
+    opacity: 0.5 !important;
 }
 
 /* Stuff that gets shoved to the right hand side */
