@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noclutter Options</title>
+	<style>
+		section { padding: 10px; }
+		#status { margin: 0 10px; background-color: #fffbbb; display: inline; }
+	</style>
+</head>
+
+<body>
+	<section>
+		<h2>Notifications Page</h2>
+		<div><label><input type="checkbox" id="hide_favorites"> Hide likes</label></div>
+		<div><label><input type="checkbox" id="hide_follows"> Hide follows</label></div>
+		<div><label><input type="checkbox" id="hide_retweets"> Hide retweets</label></div>
+	</section>
+
+	<section>
+		<button id="save">Save</button>
+		<div id="status"></div>
+	</section>
+
+	<script src='options.js'></script>
+</body>
+</html>
